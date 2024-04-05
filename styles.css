@@ -1,0 +1,75 @@
+body {
+	background: black;
+}
+
+* {
+	font-family: "Merienda", cursive;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding: 8px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 85%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+	margin: 5px;
+	font-size: 13px;
+}
+
+.body-left {
+	width: 50%;
+	height: 150px;
+}
+
+.body-right {
+	width: 50%;
+	height: 150px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+.body-right > input {
+	border: none;
+	border-bottom: grey 1px solid;
+	width: 90%;
+	margin-bottom: 8px;
+}
+
+.postcard-footer {
+	height: 50px;
+	text-align: center;
+	margin: 5px;
+}
+
+button {
+	background-color: gray;
+	padding: 5px;
+}
